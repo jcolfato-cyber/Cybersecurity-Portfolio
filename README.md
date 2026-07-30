@@ -18,27 +18,23 @@ My cybersecurity focus areas include:
 - Enterprise Security Architecture
 - Cloud Security
 
-This portfolio demonstrates hands-on cybersecurity projects covering identity management, secure architecture, risk assessment, cloud security, and security monitoring.
+This portfolio demonstrates hands-on cybersecurity projects covering enterprise infrastructure, identity management, security architecture, governance, cloud security, and security operations.
 
 ---
 
-# Certifications & Professional Development
-
-## Completed
+## Certifications & Professional Development
 
 ### Google Cybersecurity Professional Certificate
 
 Completed: May 2026
 
-Credential:
-
-https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
+Credential: [Credly Verified Credential](https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537)
 
 ---
 
-# Technical Skills
+## Technical Skills
 
-## Identity & Access Management
+### Identity & Access Management
 
 - Active Directory
 - Windows Server 2022
@@ -49,7 +45,7 @@ https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
 - Authentication Controls
 - Identity Governance Concepts
 
-## Security Operations
+### Security Operations
 
 - Security Monitoring
 - Log Analysis
@@ -59,7 +55,7 @@ https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
 - Security Hardening
 - Detection Engineering Concepts
 
-## Governance, Risk & Compliance
+### Governance, Risk & Compliance
 
 - Risk Assessment
 - Security Control Mapping
@@ -69,7 +65,7 @@ https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
 - Security Policy Assessment
 - Control Gap Analysis
 
-## Security Tools
+### Security Tools
 
 - Wireshark
 - Nmap
@@ -79,11 +75,9 @@ https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
 - WHOIS
 - DIG
 - OWASP Threat Dragon
-- FTK Imager
-- WinHex
-- Microsoft Sentinel
+- Microsoft Sentinel Concepts
 
-## Systems & Platforms
+### Systems & Platforms
 
 - Windows Server 2022
 - Windows 11
@@ -93,26 +87,71 @@ https://www.credly.com/badges/fd69647e-8cef-4974-ad6c-a89f5ddab537
 - UTM Virtualisation
 - GitHub
 - AWS Cloud
-
+  
 ---
 
-# Portfolio Architecture
+## Security Framework Alignment
+
+Projects within this portfolio reference industry security frameworks and control principles including:
+
+- ACSC Essential Eight
+- ISM Security Controls
+- APRA CPS 234
+- NIST Cybersecurity Framework
+- ISO 27001 principles
+  
+---
+
+## Portfolio Architecture
 
 This portfolio is structured into standalone repositories representing different areas of enterprise cybersecurity.
 
 ---
 
-# Academic Cybersecurity Projects
+## Enterprise Banking Security Sandbox
 
-The following projects were completed during postgraduate cybersecurity studies and represent foundational implementations of enterprise security concepts.
+The Enterprise Banking Security Sandbox is an interconnected cybersecurity environment designed to progressively simulate enterprise security engineering practices within a banking organisation.
+
+The environment begins with the Secure Enterprise Network Lab foundation and will progressively implement identity management, governance, cloud security, and security operations capabilities.
+
+| Repository | Security Domain | Status |
+| --- | --- | --- |
+| [Secure Enterprise Network Lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab) | Core Infrastructure Foundation | Completed |
+| Enterprise Banking IAM Architecture | Identity & Access Management | Planned |
+| Enterprise Banking GRC Assessment | Governance, Risk & Compliance | Planned |
+| Cloud Banking Infrastructure Hardening | Cloud Security | Planned |
+| Enterprise Banking SIEM Sentinel | Security Operations & Monitoring | Planned |
 
 ---
 
-## Hospital Active Directory Security Lab
+### Secure Enterprise Network Lab
 
-Repository:
+Repository: [secure-enterprise-network-lab](https://github.com/jcolfato-cyber/secure-enterprise-network-lab)
 
-https://github.com/jcolfato-cyber/hospital-active-directory-lab
+Built the foundational enterprise infrastructure environment supporting the banking security sandbox.
+
+The environment establishes the network and system foundation required for future IAM, GRC, cloud security, and SIEM projects.
+
+Demonstrated:
+
+- Enterprise network architecture
+- Windows Server 2022 infrastructure
+- banking.lab Active Directory domain foundation
+- DNS configuration
+- Network segmentation
+- Infrastructure documentation
+
+---
+
+## Academic Cybersecurity Projects
+
+The following projects were completed during postgraduate cybersecurity studies and represent foundational security engineering implementations of enterprise security concepts.
+
+---
+
+### Hospital Active Directory Security Lab
+
+Repository: [hospital-active-directory-lab](https://github.com/jcolfato-cyber/hospital-active-directory-lab)
 
 Implemented an enterprise-style Active Directory environment using Windows Server 2022 and Windows 11 virtual machines.
 
@@ -128,11 +167,9 @@ Demonstrated:
 
 ---
 
-## Online Banking STRIDE Threat Modeling
+### Online Banking STRIDE Threat Modeling
 
-Repository:
-
-https://github.com/jcolfato-cyber/online-banking-stride-threat-model
+Repository: [online-banking-stride-threat-model](https://github.com/jcolfato-cyber/online-banking-stride-threat-model)
 
 Developed a STRIDE threat model for a simulated online banking platform using OWASP Threat Dragon.
 
@@ -154,29 +191,15 @@ Demonstrated:
 
 ---
 
-# Enterprise Banking Security Sandbox
-
-The following repositories form an interconnected enterprise banking environment built on a dedicated four-VM laboratory using UTM. Each repository focuses on a specific security discipline while sharing a common enterprise infrastructure.
-
-| Repository | Focus | Status |
-| --- | --- | --- |
-| Secure Enterprise Network Lab | Core Infrastructure | Planned |
-| Enterprise Banking IAM Architecture | Identity & Access Management | Planned |
-| Enterprise Banking GRC Assessment | Governance, Risk & Compliance | Planned |
-| Cloud Banking Infrastructure Hardening | AWS Security | Planned |
-| Enterprise Banking SIEM Sentinel | Security Operations | Planned |
-
----
-
-# Professional Development Roadmap
+## Professional Development Roadmap
 
 The following roadmap represents my planned progression through cybersecurity certifications, enterprise laboratory projects, and practical security engineering capabilities.
 
 | Step | Type | Initiative | Status | Target | Focus Areas |
 | :--: | --- | --- | --- | --- | --- |
 | 1 | Certification | Google Cybersecurity Professional Certificate | Completed | May 2026 | Security fundamentals, SIEM concepts, incident response, risk management |
-| 2 | Certification | CompTIA Security+ | In Progress | August 2026 | Security operations, threats, vulnerabilities, security controls |
-| 3 | Infrastructure Repository | Secure Enterprise Network Lab | Planned | August 2026 | Windows Server 2022, Windows 11, Ubuntu, Kali Linux, enterprise networking, Active Directory foundation |
+| 2 | Infrastructure Repository | Secure Enterprise Network Lab | Completed | July 2026 | Windows Server 2022 Domain Controller, banking.lab Active Directory domain, Windows 11 Pro Enterprise Endpoint, Ubuntu Server 24.04 LTS, Kali Linux ARM64, isolated 10.10.10.0/24 network, DNS and enterprise network foundation |
+| 3 | Certification | CompTIA Security+ | In Progress | August 2026 | Security operations, threats, vulnerabilities, security controls |
 | 4 | Project Repository | Enterprise Banking IAM Architecture | Planned | September 2026 | Active Directory, OU design, Group Policy, RBAC, least privilege, identity management |
 | 5 | Project Repository | Enterprise Banking GRC Assessment | Planned | September 2026 | ACSC Essential Eight, APRA CPS 234, NIST CSF, risk assessment, security control mapping |
 | 6 | Professional Development | GRC Mastery | Planned | October 2026 | Governance frameworks, policies, compliance, enterprise risk management |
@@ -187,12 +210,7 @@ The following roadmap represents my planned progression through cybersecurity ce
 
 ---
 
-# Connect
+## Professional Links
 
-LinkedIn:
-
-https://www.linkedin.com/in/joncarloolfato
-
-GitHub:
-
-https://github.com/jcolfato-cyber
+- LinkedIn: [Jon Carlo Yuzon Olfato](https://www.linkedin.com/in/joncarloolfato)
+- GitHub: [jcolfato-cyber](https://github.com/jcolfato-cyber)
